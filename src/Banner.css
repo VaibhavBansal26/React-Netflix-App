@@ -1,0 +1,119 @@
+.banner{
+    height:648px;
+    object-fit: contain;
+    color: white;
+}
+
+.banner_contents{
+    margin-left: 80px;
+    padding-top: 260px;
+    height: 270px;
+}
+
+.banner_title{
+    font-size: 4rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+}
+
+.banner_description{
+    width: 55rem;
+    line-height: 1.5;
+    padding-top: 1rem;
+    font-size: 1.1rem;
+    max-width: 360px;
+    height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.banner--fadeBottom{
+    height: 7.4rem;
+    border:none;
+    background-image: linear-gradient(
+        180deg,
+        transparent,
+        rgba(37,37,37,0.61),
+        #111
+    );
+   
+}
+
+.banner_button_1{
+    border: none;
+    cursor: pointer;
+    color: black;
+    outline: none;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    padding-top: 1rem;
+    background-color: white;
+    padding-bottom: 1rem;
+}
+
+.banner_button_2{
+    border: none;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    padding-top: 1rem;
+    background-color: rgba(51,51,51,0.5);
+    padding-bottom: 1rem;
+}
+
+.banner_button_1:hover{
+    color: #000;
+    background-color: #726b6b;
+    transition: all 0.2s ease-in-out;
+}
+
+.banner_button_2:hover{
+    color: white;
+    background-color: #424141;
+    transition: all 0.2s ease-in-out;
+}
+
+
+@media only screen and (max-width: 468px) {
+    .banner_button_1 {
+        font-size: 14px;
+        font-weight: 500;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-right: 0.1rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+  }
+
+@media only screen and (max-width: 468px) {
+    .banner_button_2 {
+        font-size: 14px;
+        font-weight: 500;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-right: 0.1rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+    .banner_title{
+        font-size: 3rem;
+        font-weight: 700;
+        padding-bottom: 0.3rem;
+    }
+    .banner_contents{
+        margin-left: 20px;
+        padding-top: 180px;
+        height: 350px;
+    }
+}
